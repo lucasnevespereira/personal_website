@@ -1,2 +1,2 @@
 # personal_website
-This is my very first personal website using HTML/CSS and JavaScript.
+This is my personal Website. I wrote it using HTML/CSS and Javascript.
