@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lucas Neves Pereira</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="lang">
+            <a href="#" class="lang-item">EN</a>
+            <span>|</span>
+            <a href="#" class="lang-item">FR</a>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a class="nav-list-link">About me</a></li>
+                <li class="nav-list-item"><a class="nav-list-link">Work</a></li>
+                <li class="nav-list-item"><a class="nav-list-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="top-container">
+        <div class="top-container-title">
+            <h1 class="title">I'm Lucas.</h1>
+            <h2 class="subtitle">A <span class="web">Digital</span> Student.</h2>
+        </div>
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+            <img class="myAvatar" src="images/profile-img.jpg" alt="profile-img">
+            <h2>Hello.</h2>
+            <p> I'm a 1st year student at a Web School in Paris 🇫🇷. <br>I ♥️ coffee , tea and cats . I am trying to
+                increase my
+                Web Development skills. </p>
+        </div>
+        <div class="skills">
+            <h2>My Skills & Interests.</h2>
+            <div class="skill-row">
+                <img class="skill-row-computer" src="images/computer.png" alt="computer-img">
+                <div class="skill-row-text">
+                    <h3>I've got some Skills!</h3>
+                    <p class="skill-row-text-p">During the past couple a months i've been learning some web languages. I
+                        started by HTML that is the structure to every WebSite , and then i challengend myself to learn
+                        CSS to style that structure. I'm currently learning the JavaScript. I'm having fun!</p>
+                </div>
+            </div>
+            <div class="skill-row skill-row-2">
+                <img class="skill-row-guitar" src="images/guitar.png" alt="guitar-img">
+                <div class="skill-row-text">
+                    <h3> What about my Interests?</h3>
+                    <p class="skill-row-text-p">I do have other interestes of course! Life is not just working and
+                        studying. I am passionate about music, i taught myself to play the guitar and i am now trying to
+                        learn the piano. I also enjoy writing songs and sometimes I even sing them and record them.</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="work">
+            <h2>My Work.</h2>
+            <div class="work-row">
+                <div class="work-row-text">
+                    <h3>Development Projects</h3>
+                    <p class="work-row-text-p">During the past couple a months i've been learning some web languages. I
+                        started by HTML that is the structure to every WebSite , and then i challengend myself to learn
+                        CSS to style that structure. I'm currently learning the JavaScript. I'm having fun!</p>
+                </div>
+                <p class="work-project" onclick="view('dev-projects','work-row-text')">View my Development Projects</p>
+            </div>
+            <div class="dev-projects hidden">
+                <div class="dev-projects-box">
+                    <div class="dev-box-items">
+                        <a href="#">UPA 2</a>
+                        <p>This is a cinema front-page using HTML/CSS and JavaScript.</p>
+                    </div>
+                    <div class="dev-box-items">
+                        <a href="#">Facture</a>
+                        <p>A PHP script that generates randomly a facture.</p>
+                    </div>
+                    <div class="dev-box-items">
+                        <a href="#">Bakery</a>
+                        <p>A PHP script that generates randomly a facture.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-row">
+                <div class="work-row-text-2">
+                    <h3>Design Projects</h3>
+                    <p class="work-row-text-p">I do have other interestes of course! Life is not just working and
+                        studying. I am passionate about music, i taught myself to play the guitar and i am now trying to
+                        learn the piano. I also enjoy writing songs and sometimes I even sing them and record them.</p>
+                </div>
+                <p class="work-project" onclick="view('design-projects','work-row-text-2')">View my Design Projects</p>
+            </div>
+            <div class="design-projects hidden">
+                <div class="design-projects-box">
+                    <div class="design-box-items">
+                        <a href="#">Poster 1</a>
+                        <div></div>
+                    </div>
+                    <div class="dev-box-items">
+                        <a href="#">Poster 2</a>
+                        <div></div>
+                    </div>
+                    <div class="dev-box-items">
+                        <a href="#">Poster 3</a>
+                       <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you love Web Development as much as I do.</h3>
+            <p> Love Web Development as musch as I do ? Let's talk about what languages you prefer and share some
+                projects together!</p>
+            <a class="btn" href="mailto:pereiraneveslucas@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+        <div class="social-media">
+            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/">Twitter</a>
+            <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        </div>
+        <p>© 2018 Lucas Neves Pereira.</p>
+    </div>
+
+
+    <script src="scripts/index.js"></script>
+</body>
